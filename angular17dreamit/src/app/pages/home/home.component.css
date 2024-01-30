@@ -1,0 +1,18 @@
+section {
+  position: relative;
+  left: 37.5%;
+  width: 25%;
+  text-align: center;
+  background-color: rgb(69, 189, 29);
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: relative;
+  left: 37.5%;
+  width: 25%;
+}
