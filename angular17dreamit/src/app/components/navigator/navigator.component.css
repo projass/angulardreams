@@ -1,0 +1,25 @@
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  transition: color 0.3s ease; /* Efecto de transición para el color */
+}
+
+a:hover {
+  color: #f39c12; /* Cambio de color al pasar el mouse (naranja) */
+}
