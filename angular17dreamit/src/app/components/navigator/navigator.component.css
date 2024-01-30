@@ -1,6 +1,7 @@
 nav {
-  background-color: #333;
+  background-color: #121ec1;
   padding: 10px;
+  opacity: 70%;
 }
 
 ul {
@@ -16,7 +17,7 @@ li {
 a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 1.2em;
+  font-size: 1.7em;
   transition: color 0.3s ease; /* Efecto de transición para el color */
 }
 
