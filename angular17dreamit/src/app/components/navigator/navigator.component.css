@@ -1,26 +1,4 @@
 nav {
-  background-color: #121ec1;
-  padding: 10px;
-  opacity: 70%;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-li {
-  margin: 0 20px;
-}
-
-a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 1.7em;
-  transition: color 0.3s ease; /* Efecto de transición para el color */
-}
-
-a:hover {
-  color: #f39c12; /* Cambio de color al pasar el mouse (naranja) */
+  background-color: rgb(29, 36, 229);
+  opacity: 75%;
 }
