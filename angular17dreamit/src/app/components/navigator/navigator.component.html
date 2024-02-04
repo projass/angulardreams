@@ -1,6 +1,13 @@
 <nav class="navbar navbar-expand-lg fs-2">
-  <div class="container-fluid">
-    <img src="/src/assets/img/LogoDreamIt.jpeg" routerLink="routes" />
+  <div class="container-fluid b-3">
+    <img
+      src="../../../assets/img/logo.jpg"
+      alt="logo"
+      class="img-fluid mt-0 mb-0"
+    />
+    <a class="navbar-brand text-warning ms-2 fs-2" routerLink="routes"
+      >DreamIt!</a
+    >
     <button
       class="navbar-toggler"
       type="button"
@@ -15,7 +22,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
         <li class="nav-item pe-3 ps-3">
           <a
-            class="nav-link active text-light"
+            class="nav-link active text-light fs-4"
             routerLink="home"
             routerLinkActive="active"
             ariaCurrentWhenActive="page"
@@ -24,7 +31,7 @@
         </li>
         <li class="nav-item pe-3 ps-3">
           <a
-            class="nav-link active text-light"
+            class="nav-link active text-light fs-4"
             routerLink="login"
             routerLinkActive="active"
             ariaCurrentWhenActive="page"
@@ -33,14 +40,14 @@
         </li>
         <li class="nav-item pe-3 ps-3">
           <a
-            class="nav-link active text-light"
+            class="nav-link active text-light fs-4"
             routerLink="register"
             routerLinkActive="active"
             ariaCurrentWhenActive="page"
             >Register</a
           >
         </li>
-        <li class="nav-item dropdown pe-3 ps-3">
+        <li class="nav-item dropdown pe-3 ps-3 fs-4">
           <a
             class="nav-link dropdown-toggle"
             href="#"
@@ -48,14 +55,16 @@
             data-bs-toggle="dropdown"
           ></a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item fs-4" href="#">Action</a></li>
+            <li><a class="dropdown-item fs-4" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider fs-4" /></li>
+            <li>
+              <a class="dropdown-item fs-4" href="#">Something else here</a>
+            </li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a class="nav-link disabled fs-4" aria-disabled="true">Disabled</a>
         </li>
       </ul>
     </div>
